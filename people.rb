@@ -1,10 +1,10 @@
 class People
 
-  def initilaize(name)
+  def initialize(name)
     @name = name
   end
 
-  def name
-    "Hi, my name is #{name}"
+  def greeting
+  "Hi, my name is #{name}"
   end
 end
